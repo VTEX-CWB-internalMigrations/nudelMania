@@ -1,18 +1,14 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "carousel#One",
       "flex-layout.row#deals",
       "shelf#showcase01",
       "flex-layout.row#shelfbanner",
       "shelf#showcase02"
-      // "info-card#home",
-      // "newsletter"
     ]
   },
-  "carousel#home": {
+  "carousel#One": {
     "props": {
       "autoplay": false,
       "banners": [
@@ -27,6 +23,7 @@
           "description": "Banner 002"
         }
       ],
+      "height": 450,
       "showArrows": true,
       "showDots": true
     }
