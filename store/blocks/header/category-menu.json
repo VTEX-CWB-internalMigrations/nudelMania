@@ -1,74 +1,170 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#medicamentos",
-      "menu-item#oncologicos",
-      "menu-item#fertilidade",
-      "menu-item#materiais"
+      "menu-item#acessories",
+      "menu-item#audio",
+      "menu-item#zetta",
+      "menu-item#official",
+      "menu-item#sport",
+      "menu-item#home",
+      "menu-item#bag",
+      "menu-item#perfume"
     ]
   },
-  "menu-item#medicamentos":{
-      "props": {
-        "id": "menu-item-category-medicamentos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/medicamentos-especiais/",
-          "noFollow": true,
-          "tagTitle": "Medicamentos especiais",
-          "text": "Medicamentos especiais"
-        }
-      }    
-  },
-  "menu-item#oncologicos":{
-      "props": {
-        "id": "menu-item-category-medicamentos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/oncologicos/",
-          "noFollow": true,
-          "tagTitle": "Oncologicos",
-          "text": "Oncologicos"
-        }
-      }    
-  },
-  "menu-item#fertilidade":{
+  "menu-item#acessories": {
     "props": {
-      "id": "menu-item-category-fertilidade",
+      "id": "menu-item-category-acessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/fertilidade/",
+        "href": "/acessorios",
         "noFollow": true,
-        "tagTitle": "Fertilidade",
-        "text": "Fertilidade"
-      }
-    }    
-},
-  "menu-item#materiais": {
-    "props": {
-      "id": "menu-item-materiais",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "",
-        "noFollow": true,
-        "tagTitle": "Materiais",
-        "text": "Materiais"
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#materiais"
+      "vtex.menu@2.x:submenu#submenuBox"
     ]
+  },
+  "menu-item#audio": {
+    "props": {
+      "id": "menu-item-category-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/audio-e-video",
+        "noFollow": true,
+        "tagTitle": "Audio e Vídeo",
+        "text": "Audio e Vídeo"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#zetta": {
+    "props": {
+      "id": "menu-item-category-zetta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zetta-audio",
+        "noFollow": true,
+        "tagTitle": "Zetta Audio",
+        "text": "Zetta Audio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#official": {
+    "props": {
+      "id": "menu-item-category-official",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/produtos-oficiais-abelvolks",
+        "noFollow": true,
+        "tagTitle": "Itens Oficiais",
+        "text": "Itens Oficiais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#sport": {
+    "props": {
+      "id": "menu-item-category-sport",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esportes-e-lazer",
+        "noFollow": true,
+        "tagTitle": "Esporte/Lazer",
+        "text": "Esporte/Lazer"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/para-sua-casa",
+        "noFollow": true,
+        "tagTitle": "Para sua Casa",
+        "text": "Para sua Casa"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#bag": {
+    "props": {
+      "id": "menu-item-category-bag",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mochilas",
+        "noFollow": true,
+        "tagTitle": "Mochilas",
+        "text": "Mochilas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "menu-item#perfume": {
+    "props": {
+      "id": "menu-item-category-perfume",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/perfumes",
+        "noFollow": true,
+        "tagTitle": "Perfumes",
+        "text": "Perfumes"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#submenuBox"
+    ]
+  },
+  "vtex.menu@2.x:submenu#submenuBox": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
   },
   "vtex.menu@2.x:submenu#materiais": {
     "props": {
@@ -116,5 +212,5 @@
         "text": "Pediátrico"
       }
     }
-  }    
+  }
 }

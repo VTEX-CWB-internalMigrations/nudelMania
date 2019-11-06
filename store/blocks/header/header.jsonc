@@ -18,7 +18,6 @@
       "header-row#menu"
     ]
   },
-  
   "header-row#contact": {
     "children": [
       "rich-text#televendas",
@@ -26,8 +25,8 @@
       "header-spacer",
       "login"
     ],
-    "props":{
-      "inverted":true      
+    "props": {
+      "inverted": true
     }
   },
   "header-row#logobar": {
@@ -38,28 +37,25 @@
       "header-spacer",
       "minicart"
     ],
-    "props":{
+    "props": {
       "sticky": true,
-      "blockClass":"menu-sticky"
+      "blockClass": "menu-sticky"
     }
   },
-
-"search-bar":{
-  "props":{
-    "iconClasses":"icon-default"
-  }
-},
-
+  "search-bar": {
+    "props": {
+      "iconClasses": "icon-default"
+    }
+  },
   "header-row#menu": {
     "children": [
       "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
-      "blockClass":"menu-mundial"
+      "blockClass": "menu-mundial"
       // "menuDisposition":"center"
     }
   },
-
   "rich-text#televendas": {
     "props": {
       "text": "![televendas](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone___92b9b89b646dbd4a277c0313c04169b7.png) Televendas (31) 3581-7737",
@@ -67,10 +63,9 @@
       "textPosition": "CENTER",
       "textColor": "c-on-base--inverted",
       "font": "t-small",
-      "blockClass":"padding-1 icon-verticalAlign"
+      "blockClass": "padding-1 icon-verticalAlign"
     }
   },
- 
   "rich-text#telefone": {
     "props": {
       "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp___647d4f5d67761857f507884104d950d3.png) (31) 98881-7737",
@@ -78,12 +73,9 @@
       "textPosition": "CENTER",
       "textColor": "c-on-base--inverted",
       "font": "t-small",
-      "blockClass":"icon-verticalAlign"
+      "blockClass": "icon-verticalAlign"
     }
-  }, 
-
-  
-
+  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
@@ -92,7 +84,6 @@
       "width": "180"
     }
   },
-
   "minicart": {
     "blocks": [
       "product-summary"
@@ -104,15 +95,14 @@
       "showSku": true,
       "labelMiniCartEmpty": "Carrinho vazio",
       "labelButtonFinishShopping": "Ir para o checkout",
-      "iconLabel":"CARRINHO",
-      "showTotalItemsQty":true,
+      "iconLabel": "CARRINHO",
+      "showTotalItemsQty": true,
       "enableQuantitySelector": true,
       "maxQuantity": 10,
       "labelClasses": "label-minicart tst-minicart",
-      "iconClasses":"bg-action-primary white-90 miniCart-icon"
+      "iconClasses": "bg-action-primary white-90 miniCart-icon"
     }
   },
-  
   "login": {
     "props": {
       "emailAndPasswordTitle": "LOGIN",
@@ -122,8 +112,6 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-  
-
   "header-layout.mobile": {
     "children": [
       "header-row#1-mobile",
@@ -148,19 +136,12 @@
       "menu#drawer"
     ]
   },
-
   "menu#drawer": {
-    "children": [
-      "menu-item#medicamentos",
-      "menu-item#oncologicos",
-      "menu-item#fertilidade",
-      "menu-item#materiais"
-    ],
+    "children": [],
     "props": {
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -170,9 +151,9 @@
     }
   },
   // Header 2
-  "header-row#search-bar":{
-    "children":[
-      "search-bar"      
+  "header-row#search-bar": {
+    "children": [
+      "search-bar"
     ]
   }
 }
