@@ -115,12 +115,7 @@
     "props": {
       "blockClass": "consult-shelf"
     }
-  },
-  "product-summary-image": {
-    "props": {
-      "showBadge": false
-    }
-  },
+  }
   // "product-summary-buy-button":{
   //   "props":{
   //     "buyButtonText":"Comprar",
