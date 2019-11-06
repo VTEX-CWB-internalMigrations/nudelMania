@@ -116,7 +116,7 @@
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#submenuBox"
+      "vtex.menu@2.x:submenu#submenuBox1"
     ]
   },
   "menu-item#bag": {
@@ -160,7 +160,18 @@
       "vtex.menu@2.x:menu#submenu"
     ]
   },
+  "vtex.menu@2.x:submenu#submenuBox1": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuOne"
+    ]
+  },
   "vtex.menu@2.x:menu#submenu": {
+    "children": [],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenuOne": {
     "children": [],
     "props": {
       "orientation": "vertical"

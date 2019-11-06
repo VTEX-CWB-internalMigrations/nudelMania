@@ -126,9 +126,4 @@
   //     "buyButtonText":"Comprar",
   //   }
   // },
-  "product-summary-price": {
-    "props": {
-      "showLabels": false
-    }
-  }
 }
