@@ -9,7 +9,8 @@
       "menu-item#home",
       "menu-item#bag",
       "menu-item#perfume"
-    ]
+    ],
+    "blockClass": "mainMenu"
   },
   "menu-item#acessories": {
     "props": {
