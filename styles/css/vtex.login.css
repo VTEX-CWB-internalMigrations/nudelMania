@@ -12,15 +12,12 @@
         background:#00abb5;
         color:#fff;
     }
-.label{
-    background: transparent;
-    color:#fff;
-    display:block;
-    text-indent: inherit;
-    width: auto;
-    height: auto;
-}
-
-.container svg{color:#fff;}    
-
+    .label{
+        background: transparent;
+        color:#fff;
+        display:block;
+        text-indent: inherit;
+        width: auto;
+        height: auto;
+    }
 }
