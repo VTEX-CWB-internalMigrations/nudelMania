@@ -31,7 +31,8 @@
   },
   "image#whatsapp": {
     "props": {
-      "src": ""
+      "src": "https://abelvolks.vteximg.com.br/arquivos/bannerWhats2.png",
+      "link": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966"
     }
   },
   // Showcase 01
