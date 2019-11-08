@@ -10,7 +10,9 @@
       "menu-item#bag",
       "menu-item#perfume"
     ],
-    "blockClass": "mainMenu"
+    "props": {
+      "blockClass": "mainMenu"
+    }
   },
   "menu-item#acessories": {
     "props": {
