@@ -20,7 +20,7 @@
 }
 
 .newsletter {
-  background-color: #00607f;
+  background-color: #d12e2e;
   width:100%;
   text-align: center;
 }
@@ -102,6 +102,10 @@
 .newsletter .container {
   padding: 10px 0;
 }
+.newsletter :global(.vtex-button){
+  border: none;
+}
+
 
 @media only screen and (min-width: 640px){
 
@@ -114,7 +118,7 @@
   }
 
   .searchBarIcon{
-    background: #dcc160;
+    background: #188f89;
     padding: 11px 30px;
     color: #fff;
     margin-right: -17px;

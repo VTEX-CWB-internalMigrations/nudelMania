@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "carousel#One",
-      "flex-layout.row#deals",
+      // "flex-layout.row#deals",
+      "image#whatsapp",
       "shelf#showcase01",
       "flex-layout.row#shelfbanner",
       "shelf#showcase02"
@@ -26,6 +27,11 @@
       "height": 450,
       "showArrows": true,
       "showDots": true
+    }
+  },
+  "image#whatsapp": {
+    "props": {
+      "src": ""
     }
   },
   // Showcase 01
