@@ -1,43 +1,43 @@
 {
     "store.custom#security": {
-      "blocks": [
-        "flex-layout.row#content-title-intitucional",
-        "flex-layout.row#content-image-intitucional",
-        "flex-layout.row#content-info-intitucional"
-      ]
+        "blocks": [
+            "flex-layout.row#content-title-intitucional",
+            "flex-layout.row#content-image-intitucional",
+            "flex-layout.row#content-info-intitucional"
+        ]
     },
-    "flex-layout.row#content-title-intitucional":{
-        "children":[
+    "flex-layout.row#content-title-intitucional": {
+        "children": [
             "rich-text#title-intitucional"
         ]
     },
-    "rich-text#title-intitucional":{
-        "props":{
-            "text":"[SEU-TÍTULO-AQUI]",
-            "blockClass":"title-default"
+    "rich-text#title-intitucional": {
+        "props": {
+            "text": "[SEU-TÍTULO-AQUI]",
+            "blockClass": "title-default"
         }
     },
-    "flex-layout.row#content-image-intitucional":{
-        "children":[
+    "flex-layout.row#content-image-intitucional": {
+        "children": [
             "image#banner-institucional"
         ]
     },
-    "image#banner-institucional":{
-        "props":{
-            "src":"https://via.placeholder.com/400",
-            "alt":"[alt]",
-            "maxWidth":"100%"
+    "image#banner-institucional": {
+        "props": {
+            "src": "https://via.placeholder.com/400",
+            "alt": "[alt]",
+            "maxWidth": "100%"
         }
     },
-    "flex-layout.row#content-info-intitucional":{
-        "children":[
+    "flex-layout.row#content-info-intitucional": {
+        "children": [
             "rich-text#info-intitucional"
         ]
     },
-    "rich-text#info-intitucional":{
-        "props":{
-            "text":"[SEU-TEXTO-AQUI]",
-            "blockClass":"infoPageContent"
+    "rich-text#info-intitucional": {
+        "props": {
+            "text": "[SEU-TEXTO-AQUI]",
+            "blockClass": "infoPageContent"
         }
     }
-}    
+}

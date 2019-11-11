@@ -87,13 +87,10 @@
       "showDiscount": true,
       "showSku": true,
       "labelMiniCartEmpty": "Carrinho vazio",
-      "labelButtonFinishShopping": "Ir para o checkout",
+      "labelButtonFinishShopping": "Ir para o carrinho",
       "iconLabel": "CARRINHO",
       "showTotalItemsQty": true,
-      "enableQuantitySelector": true,
-      "maxQuantity": 10,
-      "labelClasses": "label-minicart tst-minicart",
-      "iconClasses": "bg-action-primary white-90 miniCart-icon"
+      "enableQuantitySelector": true
     }
   },
   "login": {
