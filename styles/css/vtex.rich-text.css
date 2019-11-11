@@ -181,13 +181,13 @@
 
 .container--questionText{
   position: relative;
-  height: 50px;
+  max-height: 50px;
   overflow-y: hidden;
-  transition: 1s linear;
+  transition: 1.5s linear;
   cursor: pointer;
 }
 .container--questionText:hover{
-  height: fit-content;
+  max-height: 1000px;
 }
 
 .container--questionText .headingLevel4{
