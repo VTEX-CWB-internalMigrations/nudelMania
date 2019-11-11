@@ -190,8 +190,8 @@
   height: fit-content;
 }
 
-.headingLevel4--questionText{
-  margin: 0px;
+.container--questionText .headingLevel4{
+    margin: 0px;
     padding: 10px 10px;
     background: #d12e2e;
     width: 100%;
@@ -202,7 +202,7 @@
     position: absolute;
 }
 
-.paragraph--questionText{
+.container--questionText .paragraph{
   margin-top: 50px;
 }
 
