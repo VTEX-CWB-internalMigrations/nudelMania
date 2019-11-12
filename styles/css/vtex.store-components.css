@@ -68,7 +68,7 @@
 .sellingPriceValue{
   font-size: 27px;
   font-weight: 700;
-  color: #00607f;  
+  color: #d12e2e;  
 }
 
 .installmentsPrice{
@@ -108,6 +108,11 @@
 
 .imageElement--WhatsImage{
   width: 100%;
+}
+
+.productNameContainer .productBrand{
+  font-size: 25px;
+  color: #188f89;
 }
 
 
