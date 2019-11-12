@@ -178,10 +178,8 @@
   "flex-layout.col#footerCol3": {
     "children": [
       "rich-text#centralAtendimento",
-      "rich-text#footer-endereco",
       "rich-text#footer-telefone",
-      "rich-text#footer-whatsapp",
-      "rich-text#footer-horario"
+      "rich-text#footer-whatsapp"
     ],
     "props": {
       "blockClass": "footer-content3"
@@ -221,10 +219,18 @@
   "flex-layout.col#footerCol4": {
     "children": [
       "rich-text#farmaceuticoResponsavel",
-      "rich-text#footer-responsavel"
+      // "rich-text#footer-responsavel"
+      "rich-text#emailPrincipal",
+      "rich-text#footer-horario"
     ],
     "props": {
       "blockClass": "footer-content4"
+    }
+  },
+  "rich-text#emailPrincipal": {
+    "props": {
+      "text": "SEU E-MAIL AQUI",
+      "blockClass": "emailHere"
     }
   },
   "rich-text#farmaceuticoResponsavel": {
@@ -496,7 +502,7 @@
   },
   "rich-text#footer-endereco": {
     "props": {
-      "text": "Rod Januário Carneiro 3380, Loja 03/04 - Bosque residencial do Jambreiro - Nova Lima - MG / Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
+      "text": "Av. Anhaguera, nº 3.745 Setor Leste Universitário Goiânia - Goiás - Brasil CEP:74610-010",
       "blockClass": "footer-endereco"
     }
   },
@@ -517,7 +523,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "(A) As informações incluídas neste site não devem ser utilizadas para automedicação e não substituem, em hipótese alguma, as orientações prestadas pelo profissional da área médica. Somente o médico está apto a diagnosticar qualquer problema de saúde e prescrever o tratamento adequado.(B) É um medicamento. Seu uso pode trazer riscos. Procure o médico e o farmacêutico. Leia a bula.(C) Todos os medicamentos sob prescrição necessitam de apresentação de receita médica e só serão dispensados mediante a apresentação da receita e devida averiguação por parte do farmacêutico. No qual deverá ser enviada pelo email: sac@mundialfarma.com.br ou pelo whatsapp (031) 98881-7737. Em caso de dúvidas entre em contato com o farmacêutico. Qualquer dúvida sobre prescrição médica e produtos divulgados em nosso site, entre em contato através do nosso atendimento ao cliente ou dirigir-se a nossa loja, contamos com um profissional da área farmacêutica para maiores esclarecimentos.(D) Os preços e condições de pagamento contidos neste site são exclusivos para compras efetuadas pela loja online. Imagens meramente ilustrativas de acordo com a legislação vigente.(E) Todos os pedidos estão sujeitos à confirmação dos dados cadastrais e de entrega. Esta confirmação, quando necessária, será feita através de contato telefônico e visa garantir a sua segurança.",
+      "text": "SEU TEXTO AQUI",
       "blockClass": "footer"
     }
   },
