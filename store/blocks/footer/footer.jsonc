@@ -49,12 +49,20 @@
   "flex-layout.row#footer": {
     "children": [
       "flex-layout.col#footerCol1",
+      "flex-layout.col#middleSpacer",
       "flex-layout.col#footerCol2",
+      "flex-layout.col#middleSpacer",
       "flex-layout.col#footerCol3",
+      "flex-layout.col#middleSpacer",
       "flex-layout.col#footerCol4"
     ],
     "props": {
       "blockClass": "borderFooter"
+    }
+  },
+  "flex-layout.col#middleSpacer": {
+    "props": {
+      "width": "3%"
     }
   },
   "flex-layout.row#footer2": {

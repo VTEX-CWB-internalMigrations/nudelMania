@@ -190,6 +190,11 @@
   max-height: 1000px;
 }
 
+.link--footer-title{
+  color: #3f3f46;
+  text-decoration: none;
+}
+
 .container--questionText .headingLevel4{
     margin: 0px;
     padding: 10px 10px;
