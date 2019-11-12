@@ -97,8 +97,6 @@
 .specificationsTableContainer .specificationsTitle{display:none;}
 .specificationsTable{width:auto;}
 
-.pointerEventsNone{display: none;}
-
 .newsletter .container {
   padding: 10px 0;
 }
@@ -113,6 +111,10 @@
 .productNameContainer .productBrand{
   font-size: 25px;
   color: #188f89;
+}
+
+.productDescriptionTitle{
+  display: none
 }
 
 
@@ -160,7 +162,6 @@
 
   .priceContainer .sellingPriceContainer{margin-bottom: 0;}
   .priceContainer{align-self: center;}
-  .priceContainer .sellingPriceValue{font-size: 1.25rem;}
   .shippingContainer{border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding: 1em;position: relative;}
 
   .shareContainer{text-align: center;}

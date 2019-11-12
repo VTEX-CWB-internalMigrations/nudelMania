@@ -63,9 +63,9 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      // "product-description",  
       "product-highlights",
-      "product-specifications",
+      //"product-specifications",
+      "product-description",
       "flex-layout.row#product-boxAction",
       // "rich-text#warning",
       // "product-rating-summary",

@@ -4,14 +4,10 @@
         position: relative;
     }
     .badge{
-        top: inherit;
-        bottom: -1.8rem;
-        right: -4.5rem;
-        background: #fff;
-        color: #00607f;
+        top: -18px;
+        left: 12px;
         width: auto;
-        z-index: 2;
-        padding: 0 .5rem;
+        padding: 4px 12px;
     }
     .contentSmall{
         border: 0;

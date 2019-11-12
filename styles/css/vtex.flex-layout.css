@@ -47,15 +47,6 @@
     margin: 25px 0;
     padding: 30px 0;
   }
-  .flexRow--product-contentPrices .stretchChildrenWidth{
-    width: auto !important;
-  }
-  .flexRow--product-contentPrices .stretchChildrenWidth:last-child{
-    position: absolute;
-    right:0;
-    top: 22%;
-    line-height: 1;
-  }
 
   .flexCol--footer-content3{
     padding-right:70px;
