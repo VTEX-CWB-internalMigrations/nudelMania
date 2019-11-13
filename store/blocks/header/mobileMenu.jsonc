@@ -1,0 +1,271 @@
+{
+    "drawer": {
+        "children": [
+            "vtex.menu@2.x:menu#mobileMain"
+        ]
+    },
+    "vtex.menu@2.x:menu#mobileMain": {
+        "children": [
+            "menu-item#acessoriosMob",
+            "menu-item#audioVideoMob",
+            "menu-item#zettaMob",
+            "menu-item#oficialMob",
+            "menu-item#esporteMob",
+            "menu-item#paraCasaMob",
+            "menu-item#mochilaMob",
+            "menu-item#perfumeMob"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileMenu"
+        }
+    },
+    // ---------- ACESSÓRIOS MOBILE --------- //
+    "menu-item#acessoriosMob": {
+        "props": {
+            "id": "menu-item-category-acessories-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios",
+                "noFollow": true,
+                "tagTitle": "Acessórios",
+                "text": "Acessórios"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#acessories"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#acessories": {
+        "children": [
+            "vtex.menu@2.x:menu#acessoriesAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#acessoriesAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // ----------- AUDIO E VIDEO MOBILE ------------- //
+    "menu-item#audioVideoMob": {
+        "props": {
+            "id": "menu-item-category-audio-video-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/acessorios",
+                "noFollow": true,
+                "tagTitle": "Audio e Vídeo",
+                "text": "Audio e Vídeo"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#audioVideo"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#audioVideo": {
+        "children": [
+            "vtex.menu@2.x:menu#audioVideoAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#audioVideoAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // ---------- ZETTA SUBMENU ----------
+    "menu-item#zettaMob": {
+        "props": {
+            "id": "menu-item-category-zetta-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/zetta-audio",
+                "noFollow": true,
+                "tagTitle": "Zetta Audio",
+                "text": "Zetta Audio"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#zettaMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#zettaMob": {
+        "children": [
+            "vtex.menu@2.x:menu#zettaAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#zettaAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // ------------ OFICIAIS -------------- //
+    "menu-item#oficialMob": {
+        "props": {
+            "id": "menu-item-category-oficial-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/itens-oficiais",
+                "noFollow": true,
+                "tagTitle": "Itens Oficiais",
+                "text": "Itens Oficiais"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#oficialMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#oficialMob": {
+        "children": [
+            "vtex.menu@2.x:menu#oficialAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#oficialAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // ------------ ESPORTE MOBILE -------------- //
+    "menu-item#esporteMob": {
+        "props": {
+            "id": "menu-item-category-esporte-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/esporte-lazer",
+                "noFollow": true,
+                "tagTitle": "Esporte/Lazer",
+                "text": "Esporte/Lazer"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#esporteMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#esporteMob": {
+        "children": [
+            "vtex.menu@2.x:menu#esporteAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#esporteAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // ---------- PARA A CASA ------------ //
+    "menu-item#paraCasaMob": {
+        "props": {
+            "id": "menu-item-category-para-casa-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/para-sua-casa",
+                "noFollow": true,
+                "tagTitle": "Para Sua Casa",
+                "text": "Para Sua Casa"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#paraCasaMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#paraCasaMob": {
+        "children": [
+            "vtex.menu@2.x:menu#paraCasaAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#paraCasaAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // ------------- MOCHILA ------------ //
+    "menu-item#mochilaMob": {
+        "props": {
+            "id": "menu-item-category-mochilas-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/mochilas",
+                "noFollow": true,
+                "tagTitle": "Mochilas",
+                "text": "Mochilas"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#mochilasMob"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#mochilasMob": {
+        "children": [
+            "vtex.menu@2.x:menu#mochilasAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#mochilasAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    },
+    // --------------- PERFUME --------------- //
+    "menu-item#perfumeMob": {
+        "props": {
+            "id": "menu-item-category-perfume-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/perfume",
+                "noFollow": true,
+                "tagTitle": "Perfume",
+                "text": "Perfume"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#perfume"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#perfume": {
+        "children": [
+            "vtex.menu@2.x:menu#perfumeAccordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#perfumeAccordion": {
+        "children": [],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "mobileSubmenu"
+        }
+    }
+}

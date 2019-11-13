@@ -121,17 +121,13 @@
       "blockClass": "main-header-mobile"
     }
   },
-  "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
-  },
-  "menu#drawer": {
-    "children": [],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
+  // "menu#drawer": {
+  //   "children": [
+  //   ],
+  //   "props": {
+  //     "orientation": "vertical"
+  //   }
+  // },
   "logo#mobile": {
     "props": {
       "title": "Logo",

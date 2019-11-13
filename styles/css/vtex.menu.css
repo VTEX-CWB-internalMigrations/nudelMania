@@ -1,3 +1,31 @@
+.menuContainer--mobileMenu .styledLinkContainer{
+    padding: 10px 20px;
+    background: #01abb5;
+    margin: 0px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+.menuContainer--mobileMenu .styledLink{
+    color: #fff;
+}
+
+.menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLinkContainer{
+    padding: 10px 20px;
+    background: #fff;
+    margin: 0px;
+    width: 100%;
+    border-bottom: 1px solid #01abb5;
+}
+
+.menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLink{
+    color: #01abb5;
+}
+
+
+
+
+
+
 @media only screen and (min-width: 80em){
     .menuContainer{justify-content: center;}
 .styledLink{
