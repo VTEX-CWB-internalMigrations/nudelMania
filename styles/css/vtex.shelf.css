@@ -4,18 +4,16 @@
 
 .title{
     font-size: 23px;
-    border: 1px solid #00abb5;
+    border: 1px solid #c6b550;
     text-transform: uppercase;
-    color: #00abb5;
+    color: #c6b550;
     background: #fff;
-    font-weight: normal;
     position: relative;
     font-weight: 700;
-    padding: 0 20px;
     width: auto;
-    display: inline-flex;  
+    display: inline-flex;
     margin: 20px 0;
-    padding:5px 20px;  
+    padding: 5px 20px;
 }
 
 .dot{
