@@ -405,6 +405,7 @@
     "children": [
       "newsletter",
       "footer-row#1-mobile",
+      "footer-row#1-1-mobile",
       "footer-row#2-mobile",
       "footer-row#3-mobile",
       "footer-row#4-mobile"
@@ -412,13 +413,16 @@
   },
   "footer-row#1-mobile": {
     "children": [
-      "image#flagPayments",
-      "footer-spacer",
-      "social-networks"
+      "image#flagPayments"
     ],
     "props": {
       "blockClass": "payment-methods"
     }
+  },
+  "footer-row#1-1-mobile": {
+    "children": [
+      "social-networks"
+    ]
   },
   "footer-row#2-mobile": {
     "children": [
