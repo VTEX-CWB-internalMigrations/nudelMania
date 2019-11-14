@@ -121,7 +121,15 @@
   width: 100%;
 }
 
+.imageElement--WhatsImage {
+  display: none;
+}
+
 @media only screen and (min-width: 640px){
+
+  .imageElement--WhatsImage {
+    display: unset;
+  }
 
   .newsletter .container {
     padding: 30px 10px;
