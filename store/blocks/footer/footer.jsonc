@@ -297,7 +297,8 @@
   "image#flagPayments": {
     "props": {
       "alt": "Formas de pagamento",
-      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/flag-payments___1988dec72f5caa1c8c700a68de4477a1.png"
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/flag-payments___1988dec72f5caa1c8c700a68de4477a1.png",
+      "blockClass": "flagsImg"
     }
   },
   // Footer 3
