@@ -16,7 +16,7 @@
   },
   "rich-text#whatsapp": {
     "props": {
-      "text": "[whatsApp](https://api.whatsapp.com/send?phone=5531988817737&text=&source=&data=?target=_blank)",
+      "text": "[![WhatsApp](https://abelvolks.vteximg.com.br/arquivos/whatsLeft.png)](https://api.whatsapp.com/send?1=pt_BR&amp;phone=5562999759966)",
       "blockClass": "whatsapp"
     }
   },
@@ -404,6 +404,7 @@
   // Footer mobile
   "footer-layout.mobile": {
     "children": [
+      "rich-text#whatsapp",
       "newsletter",
       "footer-row#1-mobile",
       "footer-row#1-1-mobile",

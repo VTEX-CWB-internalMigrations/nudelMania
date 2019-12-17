@@ -172,7 +172,8 @@
 .container--whatsapp{
   position: fixed;
   bottom: 15px;
-  left: 15px;
+  right: 15px;
+  z-index: 999;
 }
 
 .container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:.8rem;}
@@ -216,6 +217,10 @@
   .container--question .strong {
     font-size: 40px;
     line-height: 3rem;
+  }
+
+  .container--whatsapp{
+    left: 15px;
   }
 
   .container--about {
